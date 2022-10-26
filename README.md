@@ -1,23 +1,28 @@
 # Deno API Tests Coverage
 
-Demonstrates how to measure code coverage of a Deno server when running Postman (`newman`) API tests.
+Demonstrates code coverage measurement of a Deno server when running Postman (`newman`) API tests.
 
 See accompanying [blog post](https://dev.to/anishkny) for more details.
+
+## Requirements
+
+Deno v1.26 (or higher) installed and available on path.
 
 ## Usage
 
 Clone this repository and execute:
 
 ```bash
-./test/run-tests.sh
+deno task test
 ```
 
-This will:
+This runs the test file [`./test/server_test.ts`](./test/server_test.ts) and collects resulting code coverage.
+
+The test file takes the following steps:
 
 1. Start the Deno server to be tested ([`src/server.ts`](src/server.ts)).
-1. Run Postman API tests using `newman`.
+1. Run Postman API tests using `newman` in a subprocess.
 1. Stop the server.
-1. Generate code coverage in LCOV format.
 
 ## Background
 
