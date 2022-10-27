@@ -2,7 +2,7 @@
 
 Demonstrates code coverage measurement of a Deno server when running Postman (`newman`) API tests.
 
-See accompanying [blog post](https://dev.to/anishkny) for more details.
+See accompanying [blog post](https://dev.to/anishkny/code-coverage-for-a-running-deno-server-35ga) for more details.
 
 ## Requirements
 
