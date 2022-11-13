@@ -13,3 +13,6 @@ deno test --allow-net --allow-run --coverage=coverage ./server_test.ts
 
 # Generate coverage reports
 deno coverage coverage/
+
+# Generate LCOV report
+deno coverage coverage/ --lcov > lcov.info
