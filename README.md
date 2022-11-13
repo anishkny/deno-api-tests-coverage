@@ -1,5 +1,7 @@
 # Deno API Tests Coverage
 
+[![Coverage Status](https://coveralls.io/repos/github/anishkny/deno-api-tests-coverage/badge.svg?branch=main)](https://coveralls.io/github/anishkny/deno-api-tests-coverage?branch=main)
+
 Demonstrates code coverage measurement of a Deno server when running Postman (`newman`) API tests.
 
 See accompanying [blog post](https://dev.to/anishkny/code-coverage-for-a-running-deno-server-35ga) for more details.
