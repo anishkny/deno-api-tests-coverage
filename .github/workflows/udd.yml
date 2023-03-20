@@ -21,5 +21,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           title: "chore(deps): Update dependencies"
+          body: |
+            Automated changes by created by workflow run [$GITHUB_RUN_ID]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID).
           commit-message: "chore(deps): Update dependencies"
           delete-branch: true
