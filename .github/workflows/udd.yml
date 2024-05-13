@@ -1,8 +1,6 @@
 name: Update Deno Dependencies
 
 on:
-  schedule:
-    - cron: "0 18 * * 0" # Every Sunday 18:00 UTC
   workflow_dispatch:
 
 jobs:
